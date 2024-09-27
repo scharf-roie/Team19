@@ -22,6 +22,7 @@ const LoginForm = () => (
           <Button color='teal' fluid size='large'>
             Login
           </Button>
+          <a href="jank.html">Sus</a>
         </Segment>
       </Form>
       <Message>

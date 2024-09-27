@@ -1,0 +1,104 @@
+
+html {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    color: lightgray;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(32,32,32);
+}
+
+.layout {
+    display: flex;
+    
+}
+
+section.schedule {
+    margin: 50px auto;
+}
+
+aside.toolbar {
+    border-right: 5px lightgray;
+    display: flex;
+    width: 20%;
+    height: 100%;
+    flex-direction: column;
+}
+
+div.toolbar {
+    text-align: center;
+    background-color: rgb(72,72,72);
+}
+
+div.toolbar:nth-child(even) {
+    background-color: rgb(108,108,108);
+}
+
+button {
+    margin-left: 310px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tbody > tr:nth-child(4n+1) {
+    background-color: rgb(160,160,160);
+    border-top: 2px solid rgb(72,72,72);
+}
+
+tbody > tr:nth-child(4n+2) {
+    background-color: rgb(144,144,144);
+}
+
+tbody > tr:nth-child(4n+3) {
+    background-color: rgb(128,128,128);
+}
+
+tbody > tr:nth-child(4n) {
+    background-color: rgb(112,112,112);
+    border-bottom: 2px solid rgb(72,72,72);
+}
+
+tbody > tr:nth-child(4n+1) > td.selected {
+    background-color: rgb(49, 235, 8);
+    border-top: 2px solid rgb(72,72,72);
+}
+
+tbody > tr:nth-child(4n+2) > td.selected {
+    background-color: rgb(44, 212, 14);
+}
+
+tbody > tr:nth-child(4n+3) > td.selected {
+    background-color: rgb(27, 177, 7);
+}
+
+tbody > tr:nth-child(4n) > td.selected {
+    background-color: rgb(24, 153, 13);
+    border-bottom: 2px solid rgb(72,72,72);
+}
+
+td, th {
+    border: 0px solid rgb(72,72,72);
+    border-width: 0px 1px;
+    height: 8px;
+    width: 100px;
+}
+
+tr > th {
+    background-color: transparent;
+    border: 0px;
+}
+
+
+
+table > tbody > tr > td:hover {
+    background-color: rgb(72,72,72);
+}

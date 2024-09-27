@@ -1,5 +1,5 @@
 const express = require("express");
-var router = express.router(); //used to get page
+//var router = express.router(); //used to get page
 const app = express();
 const cors = require("cors");
 require("dotenv").config({ path: "./config.env" });
